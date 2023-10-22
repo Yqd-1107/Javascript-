@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //让用户输入圆的半径
+        let r = prompt('请输入圆的半径：')
+        //计算圆的面积（内部处理）
+        let re = 3.14*r*r
+        //页面输出圆的面积
+        document.write(re)
+
+        //计算错误会得到NaN
+        console.log('老师'-2)
+        //NaN是粘性的。任何对NaN的操作都会返回NaN
+        console.log(NaN-2)
+    </script>
+</body>
+</html>
