@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let str = '123'
+        console.log(Number(str))
+        //console.log(Number('pink'))  //NaN
+        let num = prompt('输入年薪')
+        console.log(Number(num))
+
+        let salary = +prompt('输入年薪')
+        console.log(salary)
+        console.log(parseInt('12px'))
+        console.log(parseInt('12.34px'))  //12
+        console.log(parseInt('12.94px'))  //12
+        console.log(parseInt('abc12.94px'))  //NaN
+        //------------------
+        console.log(parseFloat('12px'))
+        console.log(parseFloat('12.34px'))  //12.34
+        console.log(parseFloat('12.94px'))  //12.94
+
+        
+    </script>
+</body>
+</html>
