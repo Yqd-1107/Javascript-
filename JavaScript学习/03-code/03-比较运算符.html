@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        console.log(3 > 5)
+        console.log(3 >= 3)
+        console.log(2 == 2)
+        //比较运算符有隐式转换 双等号 只判断值
+        console.log(2 == '2') //true
+        //=== 全等 判断值和数据类型 
+        console.log(2 === '2') //false
+
+        //以后判断是否相等 请用===
+        console.log(NaN === NaN) //false NaN不等于任何人，包括它自己 
+
+        console.log('a' < 'b') //true
+        console.log('aa' < 'ab')
+        console.log('aa' < 'aac')
+    </script>
+</body>
+
+</html>

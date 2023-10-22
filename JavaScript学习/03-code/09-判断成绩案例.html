@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //需求：根据输入不同成绩，反馈不同的信息
+        // 注：成绩90以上是优秀
+        //     成绩70-90是良好
+        //     成绩60-70是及格
+        //     成绩60以下是不及格
+        let score=+prompt('请输入你的成绩：')
+        if(score>90){
+            alert('你的成绩优秀')
+        }else if(score>=70){
+            alert('你的成绩良好')
+        }else if(score>60){
+            alert('你的成绩及格了')
+        }else{
+            alert('你的成绩没有及格哦')
+        }
+    </script>
+</body>
+</html>
